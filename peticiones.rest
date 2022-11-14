@@ -1,0 +1,56 @@
+
+ POST http://localhost:3000/api/autores
+ Content-Type: application/json
+
+{
+    "autor_nombre" :"Roberto"
+}
+ 
+###
+
+ POST http://localhost:3000/api/autores
+ Content-Type: application/json
+
+{
+    "autor_nombre" :"Jose"
+}
+ 
+###
+
+ GET http://localhost:3000/api/autores
+
+
+
+
+###
+ POST http://localhost:3000/api/blogs
+ Content-Type: application/json
+
+{
+    "blog_titulo" :"Titulo del blog",
+    "blog_descripcion" :"Descripcion del blog",
+    "blog_categoria" :"Categoria del blog",
+    "blog_autor_id" :1 
+}
+
+###
+ POST http://localhost:3000/api/blogs
+ Content-Type: application/json
+
+{
+    "blog_titulo" :"Titulo2 del blog",
+    "blog_descripcion" :"Descripcio2n del blog",
+    "blog_categoria" :"Categoria2 del blog",
+    "blog_autor_id" :2
+}
+
+ ###
+
+ GET http://localhost:3000/api/blogs
+
+###
+ GET http://localhost:3000/api/autores/posts/1
+
+
+
+
